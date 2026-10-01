@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Topup Buzz - FF Diamond Topup By BKash</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+      <a class="navbar-brand-custom" href="index.html">
+        <span class="logo-icon"><i class="fas fa-bolt"></i></span>
+        <span class="brand-text">TOPUPBUZZ</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="topup.html">Topup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item ms-lg-2">
+            <a href="login.html" class="btn btn-login">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== NOTICE BAR ========== -->
+  <div class="notice-bar">
+    <div class="container d-flex align-items-center">
+      <span class="notice-badge">NOTICE</span>
+      <div class="notice-text flex-grow-1">
+        <marquee behavior="scroll" direction="left" scrollamount="4">
+          ১৮ বছরের নিচে কেউ অর্ডার করবেন না। এই সাইট শুধু মাত্র প্রাপ্তবয়স্কদের জন্য। বাবা/মা বা ফ্যামিলির টাকা চুরি করে অর্ডার করলে তার বিরুদ্ধে ব্যবস্থা নেওয়া হবে। যেকোন সমস্যা হলে টেলিগ্রাম এ মেসেজ দিবেন, অন্য কোথাও আমাদের হেল্প লাইন নেই।
+        </marquee>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main class="container py-3">
+
+    <!-- ========== HERO SLIDER ========== -->
+    <section class="hero-section">
+      <div id="heroSlider" class="carousel slide carousel-fade hero-slider" data-bs-ride="carousel" data-bs-interval="5000" data-bs-pause="hover">
+
+        <div class="carousel-indicators hero-indicators">
+          <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="hero-slide slide-1">
+              <div class="hero-slide-content">
+                <span class="hero-tag"><i class="fas fa-bolt"></i> AI ROBOT SERVICE</span>
+                <h2 class="hero-title">TOPUP YOUR FF DIAMOND</h2>
+                <p class="hero-sub">AI রোবটের মাধ্যমে ১০ সেকেন্ডে ডায়মন্ড টপআপ</p>
+                <p class="hero-note">Fast &amp; Secure Topup Service — Welcome to TOPUPBUZZ</p>
+                <a href="topup.html" class="hero-cta">
+                  <i class="fas fa-gem"></i> এখনই টপআপ করুন
+                </a>
+              </div>
+              <i class="hero-deco fas fa-gem"></i>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="hero-slide slide-2">
+              <div class="hero-slide-content">
+                <span class="hero-tag"><i class="fas fa-fire"></i> NEW BONUS EVENT</span>
+                <h2 class="hero-title">50% BONUS TOPUP</h2>
+                <p class="hero-sub">এই সপ্তাহে বোনাস টপআপে ৫০% পর্যন্ত বাড়তি ডায়মন্ড</p>
+                <p class="hero-note">সীমিত সময়ের অফার — মেয়াদ শেষ হওয়ার আগেই অর্ডার করুন</p>
+                <a href="topup.html" class="hero-cta">
+                  <i class="fas fa-tags"></i> বোনাস অফার নিন
+                </a>
+              </div>
+              <i class="hero-deco fas fa-fire"></i>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <div class="hero-slide slide-3">
+              <div class="hero-slide-content">
+                <span class="hero-tag"><i class="fas fa-crown"></i> SPECIAL OFFER</span>
+                <h2 class="hero-title">WEEKLY &amp; MONTHLY</h2>
+                <p class="hero-sub">সাপ্তাহিক ও মাসিক প্যাকেজে সেরা দামে ডায়মন্ড</p>
+                <p class="hero-note">প্রিমিয়াম ইউজারদের জন্য বিশেষ মূল্যছাড়</p>
+                <a href="topup.html" class="hero-cta">
+                  <i class="fas fa-calendar-week"></i> অফার দেখুন
+                </a>
+              </div>
+              <i class="hero-deco fas fa-crown"></i>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="carousel-item">
+            <div class="hero-slide slide-4">
+              <div class="hero-slide-content">
+                <span class="hero-tag"><i class="fab fa-telegram-plane"></i> 24/7 SUPPORT</span>
+                <h2 class="hero-title">যেকোন সমস্যায় সাহায্য</h2>
+                <p class="hero-sub">টেলিগ্রামে মেসেজ দিন — আমাদের হেল্প লাইন আছে</p>
+                <p class="hero-note">অর্ডার ট্র্যাক না হলে সাপোর্ট টিমকে জানান</p>
+                <a href="https://t.me/topupbuzzhelp" target="_blank" class="hero-cta">
+                  <i class="fab fa-paper-plane"></i> টেলিগ্রামে যোগাযোগ
+                </a>
+              </div>
+              <i class="hero-deco fas fa-headset"></i>
+            </div>
+          </div>
+
+        </div>
+
+        <button class="carousel-control-prev hero-control" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+          <i class="fas fa-chevron-left"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next hero-control" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+          <i class="fas fa-chevron-right"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+    </section>
+
+    <!-- SUPPORT BUTTONS -->
+    <div class="support-btns">
+      <a href="https://t.me/topupbuzzhelp" target="_blank" class="btn-support telegram">
+        <i class="fab fa-telegram-plane"></i>
+        <span>SUPPORT<br><small style="font-weight:500;opacity:0.9">Telegram</small></span>
+      </a>
+      <a href="https://t.me/+JuqQydRD64Q2YmE1" target="_blank" class="btn-support">
+        <i class="fas fa-users"></i>
+        <span>GROUP<br><small style="font-weight:500;opacity:0.9">Join Group</small></span>
+      </a>
+    </div>
+
+    <!-- ========== NEW BONUS EVENT ========== -->
+    <h3 class="section-title">New Bonus Event</h3>
+    <div class="product-grid-1">
+        <a href="topup.html" class="product-card" data-product="50-bonus">
+          <div class="card-img" style="--glow: rgba(245,158,11,0.55);">
+            <i class="fas fa-gift icon-wrap"></i>
+            <span class="bengali-banner">৫০% বোনাস<br>টপআপ</span>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">50% Bonus Topup</h6>
+          </div>
+        </a>
+    </div>
+
+    <!-- ========== SPECIAL OFFER ========== -->
+    <h3 class="section-title">Special Offer</h3>
+    <div class="product-grid-3">
+        <a href="topup.html" class="product-card" data-product="weekly">
+          <div class="card-img" style="--glow: rgba(99,102,241,0.55);">
+            <i class="fas fa-calendar-week icon-wrap"></i>
+            <span class="bengali-banner">সাপ্তাহিক<br>অফার</span>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Weekly Offer</h6>
+          </div>
+        </a>
+        <a href="topup.html" class="product-card" data-product="monthly">
+          <div class="card-img" style="--glow: rgba(236,72,153,0.55);">
+            <i class="fas fa-calendar-alt icon-wrap"></i>
+            <span class="bengali-banner">মাসিক<br>অফার</span>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Monthly Offer</h6>
+          </div>
+        </a>
+        <a href="topup.html" class="product-card" data-product="premium">
+          <div class="card-img" style="--glow: rgba(14,165,233,0.55);">
+            <i class="fas fa-crown icon-wrap"></i>
+            <span class="bengali-banner">প্রিমিয়াম<br>ইউজার</span>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Premium Users</h6>
+          </div>
+        </a>
+    </div>
+
+    <!-- ========== FF TOPUP ========== -->
+    <h3 class="section-title">FF TOPUP</h3>
+    <div class="product-grid">
+        <a href="topup.html" class="product-card" data-product="ff-like">
+          <div class="card-img" style="--glow: rgba(59,130,246,0.55);">
+            <i class="fas fa-thumbs-up icon-wrap"></i>
+            <span class="bengali-banner">ফ্রি ফায়ার লাইক<br>দৈনিক ২০০ করে</span>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">FF ID Like (Only BD Server)</h6>
+          </div>
+        </a>
+        <a href="topup.html" class="product-card" data-product="ff-uid">
+          <div class="card-img" style="--glow: rgba(249,115,22,0.55);">
+            <i class="fas fa-id-card icon-wrap"></i>
+            <span class="bengali-banner">আইডিকোড<br>টপআপ</span>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">FF Uid TopUp (BD)</h6>
+          </div>
+        </a>
+        <a href="topup.html" class="product-card" data-product="level-up">
+          <div class="card-img" style="--glow: rgba(34,197,94,0.55);">
+            <i class="fas fa-layer-group icon-wrap"></i>
+            <span class="bengali-banner">লেভেল আপ<br>পাস</span>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">New Level Up Pass</h6>
+          </div>
+        </a>
+        <a href="topup.html" class="product-card" data-product="weekly-lite">
+          <div class="card-img" style="--glow: rgba(168,85,247,0.55);">
+            <i class="fas fa-calendar-check icon-wrap"></i>
+            <span class="bengali-banner">উইকলি<br>লাইট</span>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Weekly Lite (BD Server)</h6>
+          </div>
+        </a>
+        <a href="topup.html" class="product-card" data-product="weekly-monthly">
+          <div class="card-img" style="--glow: rgba(236,72,153,0.55);">
+            <i class="fas fa-cubes icon-wrap"></i>
+            <span class="bengali-banner">উইকলি মান্থলি<br>কম্বো অফার</span>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Weekly/Monthly Offer</h6>
+          </div>
+        </a>
+        <a href="topup.html" class="product-card" data-product="indo">
+          <div class="card-img" style="--glow: rgba(6,182,212,0.55);">
+            <i class="fas fa-globe-asia icon-wrap"></i>
+            <span class="bengali-banner">ইন্দোনেশিয়া<br>সার্ভার</span>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Indonesia Server (UID)</h6>
+          </div>
+        </a>
+    </div>
+
+    <!-- ========== MORE ITEMS ========== -->
+    <h3 class="section-title">More Items</h3>
+    <div class="product-grid product-grid-sm">
+        <a href="topup.html" class="product-card" data-product="pubg">
+          <div class="card-img" style="--glow: rgba(245,158,11,0.55);">
+            <i class="fas fa-mobile-alt icon-wrap"></i>
+            <span class="bengali-banner">পাবজি<br>ইউসি</span>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Pubg Mobile (UID)</h6>
+          </div>
+        </a>
+        <a href="topup.html" class="product-card" data-product="fb-followers">
+          <div class="card-img" style="--glow: rgba(24,119,242,0.55);">
+            <i class="fab fa-facebook-f icon-wrap"></i>
+            <span class="bengali-banner">ফেসবুক<br>ফলোয়ার</span>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Facebook Followers (Page/ID)</h6>
+          </div>
+        </a>
+        <a href="topup.html" class="product-card" data-product="fb-react">
+          <div class="card-img" style="--glow: rgba(225,29,72,0.55);">
+            <i class="fas fa-heart icon-wrap"></i>
+            <span class="bengali-banner">ফেসবুক<br>রিয়েকশন</span>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Facebook Post React</h6>
+          </div>
+        </a>
+    </div>
+
+    <!-- ========== SOCIAL MEDIA SERVICE ========== -->
+    <h3 class="section-title">Social Media Service</h3>
+    <div class="product-grid product-grid-xs">
+        <a href="https://epikbd.com/" class="product-card">
+          <div class="card-img" style="--glow: rgba(239,68,68,0.55);">
+            <i class="fab fa-youtube icon-wrap"></i>
+            <span class="bengali-banner">ইউটিউব<br>সাবস্ক্রিপশন</span>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">All Subscriptions (EpikBD)</h6>
+          </div>
+        </a>
+        <a href="https://epikbd.com/" class="product-card">
+          <div class="card-img" style="--glow: rgba(6,182,212,0.55);">
+            <i class="fas fa-share-alt icon-wrap"></i>
+            <span class="bengali-banner">সোশ্যাল মিডিয়া<br>সার্ভিস</span>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">All Social Media (EpikBD)</h6>
+          </div>
+        </a>
+    </div>
+
+    <!-- ========== RECENT ORDERS ========== -->
+    <div class="recent-orders-box">
+      <div class="recent-orders-header">
+        <h5>
+          <i class="fas fa-shopping-bag text-danger"></i>
+          Recent Orders
+          <span class="live-badge"><span class="dot"></span> Live</span>
+        </h5>
+        <button class="btn btn-sm btn-outline-secondary rounded-circle" style="width:34px;height:34px;padding:0;" title="Refresh">
+          <i class="fas fa-sync-alt"></i>
+        </button>
+      </div>
+
+      <!-- Order Items (Static Demo) -->
+      <div class="order-item">
+        <div class="order-avatar" style="background:#dbeafe;color:#1e40af;">F</div>
+        <div class="order-info">
+          <div class="name">Fahimul islam Jony</div>
+          <div class="details">Monthly - ৳70</div>
+        </div>
+        <span class="order-status status-pending">Pending</span>
+      </div>
+
+      <div class="order-item">
+        <div class="order-avatar" style="background:#fce7f3;color:#9d174d;">Md</div>
+        <div class="order-info">
+          <div class="name">Md Emran</div>
+          <div class="details">5060 Diamond - ৳3200</div>
+        </div>
+        <span class="order-status status-pending">Pending</span>
+      </div>
+
+      <div class="order-item">
+        <div class="order-avatar" style="background:#d1fae5;color:#065f46;">S</div>
+        <div class="order-info">
+          <div class="name">shamim hasan</div>
+          <div class="details">1x Weekly Lite - ৳40</div>
+        </div>
+        <span class="order-status status-done">Done</span>
+      </div>
+
+      <div class="order-item">
+        <div class="order-avatar" style="background:#e0e7ff;color:#3730a3;">A</div>
+        <div class="order-info">
+          <div class="name">Arif hassan</div>
+          <div class="details">25 Diamond - ৳20</div>
+        </div>
+        <span class="order-status status-done">Done</span>
+      </div>
+
+      <div class="order-item">
+        <div class="order-avatar" style="background:#fef3c7;color:#92400e;">C</div>
+        <div class="order-info">
+          <div class="name">CKlimon</div>
+          <div class="details">2X Weekly - ৳312</div>
+        </div>
+        <span class="order-status status-done">Done</span>
+      </div>
+
+      <div class="order-item">
+        <div class="order-avatar" style="background:#fce7f3;color:#9d174d;">S</div>
+        <div class="order-info">
+          <div class="name">Shoeab hasan</div>
+          <div class="details">Weekly - ৳156</div>
+        </div>
+        <span class="order-status status-done">Done</span>
+      </div>
+
+      <div class="order-item">
+        <div class="order-avatar" style="background:#dbeafe;color:#1e40af;">M</div>
+        <div class="order-info">
+          <div class="name">Mosior Rahman Tanvir</div>
+          <div class="details">355 Topup + (150 ৳ Bonus) - ৳234</div>
+        </div>
+        <span class="order-status status-done">Done</span>
+      </div>
+
+      <div class="order-item">
+        <div class="order-avatar" style="background:#e0e7ff;color:#3730a3;">A</div>
+        <div class="order-info">
+          <div class="name">Arif hassan</div>
+          <div class="details">505 Diamond - ৳330</div>
+        </div>
+        <span class="order-status status-done">Done</span>
+      </div>
+
+      <div class="order-item">
+        <div class="order-avatar" style="background:#d1fae5;color:#065f46;">S</div>
+        <div class="order-info">
+          <div class="name">shamim hasan</div>
+          <div class="details">Level Up Package - Level 10 - ৳75</div>
+        </div>
+        <span class="order-status status-done">Done</span>
+      </div>
+
+      <div class="order-item">
+        <div class="order-avatar" style="background:#fef3c7;color:#92400e;">T</div>
+        <div class="order-info">
+          <div class="name">TOHA KHOUDRY</div>
+          <div class="details">115 Diamond - ৳78</div>
+        </div>
+        <span class="order-status status-done">Done</span>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <h5>STAY CONNECTED</h5>
+          <p>
+            নিজের টপআপ নিজেই করতে চাইলে, YouTube এ ক্লিক করে ভিডিওটি দেখুন।<br>
+            যেকোন সমস্যা হলে টেলিগ্রাম এ মেসেজ দিবেন, অন্য কোথাও আমাদের হেল্প লাইন নেই।
+          </p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="https://t.me/topupbuzzhelp" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5>SUPPORT CENTER</h5>
+          <div class="support-box">
+            <div class="title">
+              <i class="fab fa-telegram-plane text-info"></i>
+              Help line (9AM-12PM)
+            </div>
+            <small>টেলিগ্রাম সাপোর্ট</small>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5>QUICK LINKS</h5>
+          <a href="about.html">About Us</a>
+          <a href="terms.html">Terms & Conditions</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="refund.html">Refund & Return Policy</a>
+          <a href="delete-account.html">Delete Account Policy</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © Topup Buzz 2026 | All Rights Reserved | Developed by <a href="https://teammahal.team/" target="_blank">Team Mahal</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Help -->
+  <div class="floating-help">
+    <a href="contact.html" class="btn-help">
+      <i class="fas fa-comment-dots"></i> সাহায্য লাগবে ?
+    </a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
