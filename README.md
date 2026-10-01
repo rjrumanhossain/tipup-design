@@ -1,6 +1,6 @@
 # TOPUPBUZZ Frontend Clone
 
-শুধুমাত্র **Frontend Design** ক্লোন। Backend তুমি নিজে কানেক্ট করবে।
+শুধুমাত্র **Frontend Design** ক্লোন
 
 ## Folder Structure
 
@@ -59,7 +59,4 @@ python -m http.server 3000
 ```
 
 ## Customization
-
-- Product images: `images/` ফোল্ডারে রেখে `<img>` ট্যাগ বসাও
-- Colors: `css/style.css` এর `:root` ভ্যারিয়েবল চেঞ্জ করো
-- Telegram links: সব পেজে আসল লিংক আপডেট করো
+ো
